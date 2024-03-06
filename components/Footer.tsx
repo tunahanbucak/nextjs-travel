@@ -6,12 +6,11 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="flex items-center justify-center mb-24">
-      <div className="padding-container mx-auto max-w-[1440px] flex w-full flex-col gap-14">
+      <div className="px-6 lg:px-20 3xl:px-0 mx-auto max-w-[1440px] flex w-full flex-col gap-14">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
             <Image src="hilink-logo.svg" alt="logo" width={74} height={29} />
           </Link>
-
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
             {FOOTER_LINKS.map((columns) => (
               <FooterColumn title={columns.title}>
@@ -24,7 +23,6 @@ const Footer = () => {
                 </ul>
               </FooterColumn>
             ))}
-
             <div className="flex flex-col gap-5">
               <FooterColumn title={FOOTER_CONTACT_INFO.title}>
                 {FOOTER_CONTACT_INFO.links.map((link) => (
@@ -40,7 +38,6 @@ const Footer = () => {
                 ))}
               </FooterColumn>
             </div>
-
             <div className="flex flex-col gap-5">
               <FooterColumn title={SOCIALS.title}>
                 <ul className="text-[14px] font-[400] flex gap-4 text-gray-30">
@@ -54,10 +51,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
         <div className="border bg-gray-20" />
         <p className="text-[14px] font-[400] w-full text-center text-gray-30">
-          2023 Hilink | All rights reserved
+          2023 Hilink | Tüm hakları saklıdır
         </p>
       </div>
     </footer>

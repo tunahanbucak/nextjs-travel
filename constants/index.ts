@@ -1,13 +1,11 @@
-// NAVIGATION
 export const NAV_LINKS = [
-  { href: "/", key: "home", label: "Home" },
-  { href: "/", key: "how_hilink_work", label: "How Hilink Work?" },
-  { href: "/", key: "services", label: "Services" },
-  { href: "/", key: "pricing ", label: "Pricing " },
-  { href: "/", key: "contact_us", label: "Contact Us" },
+  { href: "/", key: "home", label: "Ana Sayfa" },
+  { href: "/", key: "how_hilink_work", label: "Hilink Nasıl Çalışır?" },
+  { href: "/", key: "services", label: "Hizmetler" },
+  { href: "/", key: "pricing ", label: "Fiyatlandırma " },
+  { href: "/", key: "contact_us", label: "Bize Ulaşın" },
 ];
 
-// CAMP SECTION
 export const PEOPLE_URL = [
   "/person-1.png",
   "/person-2.png",
@@ -15,66 +13,65 @@ export const PEOPLE_URL = [
   "/person-4.png",
 ];
 
-// FEATURES SECTION
 export const FEATURES = [
   {
-    title: "Real maps can be offline",
+    title: "Gerçek haritalar çevrimdışı olabilir",
     icon: "/map.svg",
     variant: "green",
     description:
-      "We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location",
+      "Tırmanış yaparken uygulamamızı kullanabilmeniz için bir çözüm sunuyoruz, evet çevrimdışı haritaları bulunduğunuz yerde sinyal olmadığı her an kullanabilirsiniz",
   },
   {
-    title: "Set an adventure schedule",
+    title: "Bir macera programı belirleyin",
     icon: "/calendar.svg",
     variant: "green",
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Arkadaşlarınızla bir macera planlayın. Tatil günlerinde Hilink'ten birçok ilginç teklif var. Bu şekilde, daha fazla tartışma yok",
   },
   {
-    title: "Technology using augment reality",
+    title: "Artırılmış gerçekliği kullanan teknoloji",
     icon: "/tech.svg",
     variant: "green",
     description:
-      "Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection",
+      "Teknoloji, artırılmış gerçekliği ormandaki yürüyüş parkurunuzdan dağın zirvesine kadar bir rehber olarak kullanıyor. İnternet bağlantısı olmadan en son teknoloji tarafından desteklenmektedir",
   },
   {
-    title: "Many new locations every month",
+    title: "Her ay birçok yeni lokasyon",
     icon: "/location.svg",
     variant: "orange",
     description:
-      "Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing",
+      "Her ay çok sayıda yeni konum, çünkü tırmanışla ilgili en iyi deneyimlerini paylaşan dünya çapında bir dağcı topluluğumuz var",
   },
 ];
 
 export const FOOTER_LINKS = [
   {
-    title: "Learn More",
+    title: "Daha Fazla Bilgi",
     links: [
-      "About Hilink",
-      "Press Releases",
-      "Environment",
-      "Jobs",
-      "Privacy Policy",
-      "Contact Us",
+      "Hilink Hakkında",
+      "Basın Duyuruları",
+      "Çevre Politikası",
+      "İş İlanları",
+      "Gizlilik Politikası",
+      "Bize Ulaşın",
     ],
   },
   {
-    title: "Our Community",
-    links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
+    title: "Topluluğumuz",
+    links: ["Tırmanma xixixi", "Yürüyüş hilink", "Hilink kinthill"],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: "Contact Us",
+  title: "Bize Ulaşın",
   links: [
-    { label: "Admin Officer", value: "123-456-7890" },
-    { label: "Email Officer", value: "hilink@akinthil.com" },
+    { label: "Telefon", value: "123-456-7890" },
+    { label: "E-posta", value: "hilink@akinthil.com" },
   ],
 };
 
 export const SOCIALS = {
-  title: "Social",
+  title: "Sosyal Medya",
   links: [
     "/facebook.svg",
     "/instagram.svg",

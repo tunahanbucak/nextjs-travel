@@ -41,7 +41,7 @@ const CampSite = ({
               />
             ))}
           </span>
-          <p className="text-[16px] font-[700] md:text-[20px] font-[700] text-white">
+          <p className="text-[16px]  md:text-[20px] font-[700] text-white">
             {peopleJoined}
           </p>
         </div>
@@ -56,28 +56,26 @@ const Camp = () => {
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite
           backgroundImage="bg-bg-img-1"
-          title="Putuk Truno Camp"
+          title="Putuk Truno Kampı"
           subtitle="Prigen, Pasuruan"
-          peopleJoined="50+ Joined"
+          peopleJoined="50+ Katıldı"
         />
         <CampSite
           backgroundImage="bg-bg-img-2"
-          title="Mountain View Camp"
-          subtitle="Somewhere in the Wilderness"
-          peopleJoined="50+ Joined"
+          title="Dağ Manzaralı Kamp"
+          subtitle="Vahşi Doğada Bir Yerde"
+          peopleJoined="50+ Katıldı"
         />
       </div>
-
       <div className="flex items-center justify-end mt-10 px-6 lg:-mt-60 lg:mr-6">
         <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
-          <h2 className="text-[24px] font-[400] md:text-[32px] font-[400] 2xl:text-[64px] font-[400] leading-[120%] capitalize text-white">
-            <strong>Feeling Lost</strong> And Not Knowing The Way?
+          <h2 className="text-[24px]  md:text-[32px]  2xl:text-[64px] font-[400] leading-[120%] capitalize text-white">
+            <strong>Kaybolmuş hissetmek</strong> Ve Yolu Bilmiyor musun?
           </h2>
-          <p className="text-[14px] font-[400] xl:text-[16px] font-[400] mt-5 text-white">
-            Starting from the anxiety of the climbers when visiting a new
-            climbing location, the possibility of getting lost is very large.
-            That's why we are here for those of you who want to start an
-            adventure
+          <p className="text-[14px]  xl:text-[16px] font-[400] mt-5 text-white">
+            Yeni bir yeri ziyaret eden dağcıların kaygısından başlayarak
+            tırmanma yeri, kaybolma ihtimali çok yüksektir. Bu yüzden yeni bir
+            başlangıç ​​yapmak isteyenler için buradayız. macera
           </p>
           <Image
             src="/quote.svg"
