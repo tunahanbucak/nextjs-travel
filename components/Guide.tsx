@@ -11,7 +11,7 @@ const Guide = () => {
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
           <h2 className="text-[40px]  lg:text-[64px] font-[700] leading-[120%] xl:max-w-[390px]">
-            Sizi Kolay Yola Yönlendirin
+            Sizi Kolay Yollara Yönlendirir
           </h2>
           <p className="text-[16px] font-[700] text-gray-30 xl:max-w-[520px]">
             Sadece hilink uygulamasıyla artık kaybolmayacaksınız çünkü sahada

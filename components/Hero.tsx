@@ -17,9 +17,9 @@ const Hero = () => {
           Putuk Truno Kamp Alanı
         </h1>
         <p className="text-[16px] font-[400]6 mt-6 text-gray-30 xl:max-w-[520px]">
-          Memnuniyeti arayan her yolculuğunuzda olmak istiyoruz. doğanın
-          bozulmaz güzelliğini görmek. Size bir konuda yardımcı olabiliriz tek
-          bir uygulamada dünya çapında macera
+          Doğanın bozulmaz güzelliğini görmenin tatminini arayan
+          yolculuklarınızın her birinde olmak istiyoruz. Tek bir uygulamayla
+          dünya çapında bir maceraya çıkmanıza yardımcı olabiliriz
         </p>
         <div className="my-11 flex flex-wrap gap-5">
           <div className="flex items-center gap-2">
@@ -43,7 +43,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="İndir uygulaması" variant="btn_green" />
+          <Button type="button" title="Uygulamayı İndir" variant="btn_green" />
           <Button
             type="button"
             title="Biz nasıl çalışırız?"
@@ -66,7 +66,7 @@ const Hero = () => {
               <p className="text-[16px] font-[400] block text-gray-20">
                 Mesafe
               </p>
-              <p className="text-[20px] font-[700] text-white">173.28 mi</p>
+              <p className="text-[20px] font-[700] text-white">173.28 mil</p>
             </div>
             <div className="flex flex-col">
               <p className="text-[16px] font-[400] block text-gray-20">

@@ -70,12 +70,12 @@ const Camp = () => {
       <div className="flex items-center justify-end mt-10 px-6 lg:-mt-60 lg:mr-6">
         <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
           <h2 className="text-[24px]  md:text-[32px]  2xl:text-[64px] font-[400] leading-[120%] capitalize text-white">
-            <strong>Kaybolmuş hissetmek</strong> Ve Yolu Bilmiyor musun?
+            <strong>Kaybolmuş hissediyor</strong> ve yolu bilmiyor musunuz?
           </h2>
           <p className="text-[14px]  xl:text-[16px] font-[400] mt-5 text-white">
-            Yeni bir yeri ziyaret eden dağcıların kaygısından başlayarak
-            tırmanma yeri, kaybolma ihtimali çok yüksektir. Bu yüzden yeni bir
-            başlangıç ​​yapmak isteyenler için buradayız. macera
+            Yeni bir tırmanış yerini ziyaret ederken dağcıların endişesinden
+            başlayarak, kaybolma olasılığı çok büyüktür. Bu yüzden bir maceraya
+            başlamak isteyen sizler için buradayız
           </p>
           <Image
             src="/quote.svg"
