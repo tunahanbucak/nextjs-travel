@@ -43,12 +43,17 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="Uygulamayı İndir" variant="btn_green" />
+          <Button
+            type="button"
+            title="Uygulamayı İndir"
+            variant="border-green-500 bg-green-500 px-5 py-5 text-white animate-bounce flex hover:bg-sky-400 hover:text-black"
+            icon="/arrow-down.svg"
+          />
           <Button
             type="button"
             title="Biz nasıl çalışırız?"
             icon="/play.svg"
-            variant="btn_white_text"
+            variant="border-white bg-teal-100 px-5 py-5 text-blue-950 flex hover:bg-blue-950 hover:text-white"
           />
         </div>
       </div>

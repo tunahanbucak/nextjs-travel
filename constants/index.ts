@@ -1,7 +1,7 @@
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Ana Sayfa" },
-  { href: "/", key: "how_hilink_work", label: "Hilink Nasıl Çalışır?" },
-  { href: "/", key: "services", label: "Hizmetler" },
+  { href: "/work", key: "how_hilink_work", label: "Hilink Nasıl Çalışır?" },
+  { href: "/services", key: "services", label: "Hizmetler" },
   { href: "/", key: "pricing ", label: "Fiyatlandırma " },
   { href: "/", key: "contact_us", label: "Bize Ulaşın" },
 ];

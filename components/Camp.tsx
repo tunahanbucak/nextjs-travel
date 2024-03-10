@@ -27,7 +27,6 @@ const CampSite = ({
             <p className="text-[14px] font-[600] text-white">{subtitle}</p>
           </div>
         </div>
-
         <div className="flex items-center justify-center gap-6">
           <span className="flex -space-x-4 overflow-hidden">
             {PEOPLE_URL.map((url) => (

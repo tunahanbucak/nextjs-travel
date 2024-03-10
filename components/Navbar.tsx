@@ -24,7 +24,7 @@ const Navbar = () => {
           type="button"
           title="Giriş Yap"
           icon="/user.svg"
-          variant="btn_dark_green"
+          variant="bg-black p-3 px-5 text-gray-300 flex transition-all hover:bg-cyan-500 hover:text-blue-200 hover:border-light-900 "
         />
       </div>
       {/* acilacak sekilde duzenlenecek */}
