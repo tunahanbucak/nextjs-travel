@@ -2,6 +2,12 @@ import { FEATURES } from "@/constants";
 import Image from "next/image";
 import React from "react";
 
+type Services = {
+  title: string;
+  icon: string;
+  description: string;
+};
+
 export default function Services() {
   return (
     <section className="flex-col flex items-center justify-center overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
@@ -30,7 +36,9 @@ export default function Services() {
           </div>
           <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
             {FEATURES.map((feature) => (
-              <li className="flex w-full flex-1 flex-col items-start">
+              <li
+                key={feature.id}
+                className="flex w-full flex-1 flex-col items-start">
                 <div className="rounded-full p-4 lg:p-7 bg-green-50">
                   <Image src={feature.icon} alt="map" width={28} height={28} />
                 </div>

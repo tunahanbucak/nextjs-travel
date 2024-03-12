@@ -2,8 +2,8 @@ export const NAV_LINKS = [
   { href: "/", key: "home", label: "Ana Sayfa" },
   { href: "/work", key: "how_hilink_work", label: "Hilink Nasıl Çalışır?" },
   { href: "/services", key: "services", label: "Hizmetler" },
-  { href: "/", key: "pricing ", label: "Fiyatlandırma " },
-  { href: "/", key: "contact_us", label: "Bize Ulaşın" },
+  { href: "/pricing", key: "pricing ", label: "Fiyatlandırma " },
+  { href: "/contactus", key: "contact_us", label: "Bize Ulaşın" },
 ];
 
 export const PEOPLE_URL = [
@@ -15,6 +15,7 @@ export const PEOPLE_URL = [
 
 export const FEATURES = [
   {
+    id: 1,
     title: "Gerçek haritalar çevrimdışı olabilir",
     icon: "/map.svg",
     variant: "green",
@@ -22,6 +23,7 @@ export const FEATURES = [
       "Tırmanış yaparken uygulamamızı kullanabilmeniz için bir çözüm sunuyoruz, evet çevrimdışı haritaları bulunduğunuz yerde sinyal olmadığı her an kullanabilirsiniz",
   },
   {
+    id: 2,
     title: "Bir macera programı belirleyin",
     icon: "/calendar.svg",
     variant: "green",
@@ -29,6 +31,7 @@ export const FEATURES = [
       "Arkadaşlarınızla bir macera planlayın. Tatil günlerinde Hilink'ten birçok ilginç teklif var. Bu şekilde, daha fazla tartışma yok",
   },
   {
+    id: 3,
     title: "Artırılmış gerçekliği kullanan teknoloji",
     icon: "/tech.svg",
     variant: "green",
@@ -36,6 +39,7 @@ export const FEATURES = [
       "Teknoloji, artırılmış gerçekliği ormandaki yürüyüş parkurunuzdan dağın zirvesine kadar bir rehber olarak kullanıyor. İnternet bağlantısı olmadan en son teknoloji tarafından desteklenmektedir",
   },
   {
+    id: 4,
     title: "Her ay birçok yeni lokasyon",
     icon: "/location.svg",
     variant: "orange",

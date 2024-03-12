@@ -16,7 +16,7 @@ const CampSite = ({
 }: CampProps) => {
   return (
     <div
-      className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}>
+      className={` h-full w-full max-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl `}>
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
         <div className="flex items-center justify-center gap-4">
           <div className="rounded-full bg-green-50 p-4">
@@ -51,8 +51,8 @@ const CampSite = ({
 
 const Camp = () => {
   return (
-    <section className="2xl:mx-auto max-w-[1440px]r relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
-      <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
+    <section className="2xl:mx-auto max-w-[1440px] relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
+      <div className="flex flex-col w-full items-start justify-start gap-8 overflow-x-auto lg:flex-row lg:h-[400px] xl:h-[640px]">
         <CampSite
           backgroundImage="bg-bg-img-1"
           title="Putuk Truno Kampı"
@@ -66,7 +66,7 @@ const Camp = () => {
           peopleJoined="50+ Katıldı"
         />
       </div>
-      <div className="flex items-center justify-end mt-10 px-6 lg:-mt-60 lg:mr-6">
+      <div className="flex items-center justify-end mt-10 px-6 lg:-mt-60 lg:mr-40">
         <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
           <h2 className="text-[24px]  md:text-[32px]  2xl:text-[64px] font-[400] leading-[120%] capitalize text-white">
             <strong>Kaybolmuş hissediyor</strong> ve yolu bilmiyor musunuz?

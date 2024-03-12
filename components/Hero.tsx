@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Button from "./Button";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -49,12 +50,14 @@ const Hero = () => {
             variant="border-green-500 bg-green-500 px-5 py-5 text-white animate-bounce flex hover:bg-sky-400 hover:text-black"
             icon="/arrow-down.svg"
           />
-          <Button
-            type="button"
-            title="Biz nasıl çalışırız?"
-            icon="/play.svg"
-            variant="border-white bg-teal-100 px-5 py-5 text-blue-950 flex hover:bg-blue-950 hover:text-white"
-          />
+          <Link href="/work">
+            <Button
+              type="button"
+              title="Biz nasıl çalışırız?"
+              icon="/play.svg"
+              variant="border-white bg-teal-100 px-5 py-5 text-blue-950 flex hover:bg-blue-950 hover:text-white"
+            />
+          </Link>
         </div>
       </div>
       <div className="relative flex flex-1 items-start">
