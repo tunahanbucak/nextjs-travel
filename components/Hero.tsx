@@ -2,7 +2,7 @@ import Image from "next/image";
 import Button from "./Button";
 import Link from "next/link";
 
-const Hero = () => {
+export default function Hero() {
   return (
     <section className="mx-auto max-w-[1440px] px-6 lg:px-20 3xl:px-0 flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
       <div className="absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60" />
@@ -87,6 +87,4 @@ const Hero = () => {
       </div>
     </section>
   );
-};
-
-export default Hero;
+}

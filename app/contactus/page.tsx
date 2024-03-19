@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 
 export default function Contactus() {
@@ -58,7 +59,12 @@ export default function Contactus() {
               Gönder
             </button>
             <div className="mx-auto ml-60 text-center">
-              <img src="hilink-logo.svg" alt="logo" width={150} />
+              <Image
+                src="hilink-logo.svg"
+                alt="logo"
+                width={150}
+                height={150}
+              />
             </div>
           </div>
         </form>

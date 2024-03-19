@@ -3,7 +3,7 @@ import Button from "./Button";
 import Image from "next/image";
 import Link from "next/link";
 
-const GetApp = () => {
+export default function GetApp() {
   return (
     <section className=" pt-10 mt-10 flex items-center justify-center w-full flex-col pb-[100px]">
       <div className="max-container relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl">
@@ -42,6 +42,4 @@ const GetApp = () => {
       </div>
     </section>
   );
-};
-
-export default GetApp;
+}

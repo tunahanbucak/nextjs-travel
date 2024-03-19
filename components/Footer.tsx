@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const Footer = () => {
+export default function Footer() {
   return (
     <footer className="flex items-center justify-center mb-24">
       <div className="px-6 lg:px-20 3xl:px-0 mx-auto max-w-[1440px] flex w-full flex-col gap-14">
@@ -53,12 +53,12 @@ const Footer = () => {
         </div>
         <div className="border bg-gray-20" />
         <p className="text-[14px] font-[400] w-full text-center text-gray-30">
-          2023 Hilink | Tüm hakları saklıdır
+          2024 Hilink | Tüm hakları saklıdır
         </p>
       </div>
     </footer>
   );
-};
+}
 
 type FooterColumnProps = {
   title: string;
@@ -73,5 +73,3 @@ const FooterColumn = ({ title, children }: FooterColumnProps) => {
     </div>
   );
 };
-
-export default Footer;

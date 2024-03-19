@@ -8,7 +8,13 @@ type ButtonProps = {
   full?: boolean;
 };
 
-const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
+export default function Button({
+  type,
+  title,
+  icon,
+  variant,
+  full,
+}: ButtonProps) {
   return (
     <button
       className={`flex items-center justify-center gap-3 rounded-full border ${variant} ${
@@ -21,6 +27,4 @@ const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
       </label>
     </button>
   );
-};
-
-export default Button;
+}
